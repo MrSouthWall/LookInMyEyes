@@ -59,6 +59,7 @@ struct ContentView: View {
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .padding()
         .background(.orange.opacity(0.1))
+        .preferredColorScheme(.light)
     }
 }
 
